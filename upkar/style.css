@@ -1,0 +1,130 @@
+/* offer section*/
+
+#offer{
+    background-image: url("images/offer.jpg");
+    height:70vh;
+    width:100%;
+    background-size:cover;
+    background-position: top 60% right 0%;
+    padding: 0 80px;
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#offer h4{
+    padding-bottom:14px;
+    color:azure;
+}
+#offer h1{
+    color:bisque;
+}
+#offer button{
+background-color:antiquewhite;
+    color:rgb(52, 46, 36);
+    border:0;
+    border-radius: 15px;
+    padding:14px 60px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+} 
+#offer button:hover {
+ transform: scale(1.2);
+}
+
+.fea-b{
+    padding:40px 80px;
+}
+#features{
+    display:flex;
+    align-items: center;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+}
+
+#features .feab {
+    background-color: transparent;
+    width:100px;
+    text-align: center;
+    padding: 2px 1px;
+    box-shadow: 20px 20px 35px rgba(0, 0, 0, 0.03);
+    border:1px solid  #dcdad9;
+    border-radius: 5px;
+    margin:15px 0;
+}
+
+#features .feab:hover{
+    box-shadow: 10px 10px 54px rgba(25, 24, 24, 0.1); 
+}
+#features .feab h6{
+    display:inline-block;
+    padding:9px 7px 6px 7px;
+    line-height: 1;
+    border-radius: 5px;
+    color:black;
+    background-color: rgb(238, 237, 236);
+
+}
+#features .feab img{
+    width:100%;
+    margin-bottom: 10px;
+
+}
+
+footer{
+    background-color: beige;
+  }
+  footer h5 {
+      color: black;
+      font-weight:700;
+      font-size: 1.2rem;
+  }
+  footer li{
+      padding-bottom:4px;
+    }
+    footer li a{
+      font-size: 0.8rem;
+      color:black;
+      text-decoration: none;
+    }
+    footer li a:hover{
+      color:rgb(103, 78, 46);
+    }
+    footer p{
+      color:#2a2828;
+      font-size: 0.8rem;
+    }
+    footer .copyright a{
+      color: #c57147;
+      width: 40px;
+      height:40px;
+      background-color: azure;
+      display: inline-block;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      transition: 0.3s ease;
+      margin:0 5px;
+    }
+    footer .copyright a:hover {
+  color:blanchedalmond;
+  background-color:chocolate;
+   
+    }
+    #productdet .card {
+      display:flex;
+       align-items: center;
+       justify-content: space-between ;
+      flex-wrap: wrap;
+      transition: transform 0.3s ease-in-out;
+
+    }
+    #productdet .card:hover{
+      transform: scale(1.2);
+      box-shadow: 10px 10px 54px rgba(25, 24, 24, 0.1); 
+
+    }
